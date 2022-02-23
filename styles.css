@@ -24,6 +24,11 @@
         content: ":✧";
     }
     
+    .menu-list,
+    .menu-red {
+        list-style: none;
+    }
+    
     .menu-list a {
         margin-left: 30px;
         font-family: 'Roboto', sans-serif;
@@ -50,7 +55,7 @@
     .contenidoCajaPrincipal {
         display: flex;
         width: 58.2%;
-        height: 500px;
+        height: 800px;
         margin-left: 140px;
         justify-content: center;
         align-items: space-between;
@@ -58,7 +63,7 @@
     }
     
     .introduccion {
-        font-size: 45px;
+        font-size: 35px;
         font-family: 'Roboto', sans-serif;
         text-align: justify;
         font-weight: bold;
@@ -69,7 +74,7 @@
         height: 250px;
         border-radius: 50%;
         order: 2;
-        margin-bottom: 187px;
+        margin-bottom: 497px;
         margin-left: 40px;
     }
     
@@ -82,7 +87,7 @@
     
     .menu-redes {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin-top: 15px;
     }
     
@@ -97,8 +102,8 @@
     }
     
     .acercademi {
-        margin: 15px;
-        height: 200px;
+        height: 600px;
+        align-items: flex-end;
     }
     
     .sobreMi {
@@ -107,6 +112,7 @@
         font-size: 25px;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
+        margin: 5px;
     }
     
     .biografia {

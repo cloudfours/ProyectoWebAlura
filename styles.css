@@ -1,129 +1,126 @@
     body {
         background: #eeeeee;
+        width: 1440px;
+        height: 5020px;
+        margin: 0 auto;
     }
     /*Cabezera*/
     
-    .cabezeraMenu {
+    .nombremenu {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .cabezeraNavegar {
         display: flex;
-        width: 100%;
-        height: 70px;
+        align-items: center;
         justify-content: space-around;
+    }
+    
+    .navegador {
+        display: flex;
         align-items: center;
     }
     
-    .menu {
+    .botonesNav {
         display: flex;
     }
     
-    .nombreNav {
-        font-weight: bold;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .nombreNav::before {
-        content: ":✧";
-    }
-    
-    .menu-list,
-    .menu-red {
+    .botonesMenunav {
         list-style: none;
     }
     
-    .menu-list a {
-        margin-left: 30px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 12px;
-        font-style: none;
+    .botonesMenunav a {
         text-decoration: none;
-        color: black
+        color: black;
+        width: auto;
+        margin: 0 0 0 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
     }
     
-    .menu-list:last-child {
-        font-weight: bold;
+    .textoNavegacion {
+        width: 751px;
+        height: 265px;
+        background-color: #0abef5ce;
+        margin-top: -356px;
+        margin-left: 152px;
+        margin-right: 537px;
     }
-    /*principal*/
     
-    .contenidoPrincipal {
-        display: flex;
-        align-items: center;
+    .tituloPrincipal {
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
     }
     
     .menuRedes {
-        margin: 0;
-    }
-    
-    .contenidoCajaPrincipal {
         display: flex;
-        width: 58.2%;
-        height: 800px;
-        margin-left: 140px;
-        justify-content: center;
-        align-items: space-between;
-        flex-direction: column;
+        position: relative;
+        right: 80px;
     }
     
-    .introduccion {
-        font-size: 35px;
-        font-family: 'Roboto', sans-serif;
+    .redes {
+        list-style: none;
+    }
+    
+    .menuRedes a {
+        margin: 0 0 0 40px;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .tituloPrincipal {
+        font-size: 52px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .parrafo {
         text-align: justify;
-        font-weight: bold;
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 24px;
+        margin-bottom: 26.5px;
     }
     
     .fotoPerfil {
-        width: 250px;
-        height: 250px;
+        width: 368px;
+        height: 368px;
         border-radius: 50%;
-        order: 2;
-        margin-bottom: 497px;
-        margin-left: 40px;
+        margin-top: 120px;
+        margin-right: 152px;
+        margin-left: 920px;
+    }
+    /*cuerpo*/
+    
+    .sobremi {
+        border: 1px solid green;
+        width: 100%;
+        height: 520px;
+        margin-top: 89px;
+        background-color: #EAF2FD;
     }
     
-    .contenidoCajaPrincipal .parrafo {
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        margin-top: 15px;
+    .textosobremi {
+        text-align: left;
+        margin-top: 64px;
+        margin-left: 152px;
+        margin-right: 1151px;
+        margin-bottom: 16px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .parrafosobremi {
+        margin-left: 152px;
+        margin-right: 537px;
+        margin-bottom: 132px;
         text-align: justify;
-    }
-    
-    .menu-redes {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 15px;
-    }
-    
-    .menu-red a {
-        color: black;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .menu-red a::after {
-        content: "🡭";
-    }
-    
-    .acercademi {
-        height: 600px;
-        align-items: flex-end;
-    }
-    
-    .sobreMi {
-        margin: 15px;
-        text-align: justify;
-        font-size: 25px;
-        font-weight: bold;
-        font-family: 'Roboto', sans-serif;
-        margin: 5px;
-    }
-    
-    .biografia {
-        margin: 15px;
-        text-align: justify;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
     
     .firma {
-        width: 200px;
-        height: 50px;
-        margin-top: 0;
-        margin-bottom: 5px;
+        width: 140px;
+        height: 52px;
+        margin-left: 152px;
+        margin-right: 1148px;
+        margin-top: 16px;
     }

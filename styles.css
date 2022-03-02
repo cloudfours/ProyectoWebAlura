@@ -1,13 +1,18 @@
     body {
         background: #eeeeee;
-        width: 1440px;
+        width: 1201px;
         height: 5020px;
         margin: 0;
+        position: relative;
+        left: 50%
     }
     /*Cabezera*/
     
     .nombremenu {
         font-family: 'Raleway', sans-serif;
+        position: relative;
+        left: 48px;
+        font-weight: bold;
     }
     
     .nombremenu::before {
@@ -16,8 +21,12 @@
     
     .cabezeraNavegar {
         display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
         align-items: center;
-        justify-content: space-around;
+        position: relative;
+        left: 108px;
     }
     
     .navegador {
@@ -58,7 +67,7 @@
     .menuRedes {
         display: flex;
         position: relative;
-        right: 80px;
+        left: -47px;
     }
     
     .principalfototexto {
@@ -70,7 +79,7 @@
     }
     
     .menuRedes a {
-        margin: 0 0 0 40px;
+        margin: 0 0 0 50px;
         font-size: 16px;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
@@ -90,8 +99,8 @@
     }
     
     .fotoPerfil {
-        width: 368px;
-        height: 368px;
+        width: 365px;
+        height: 365px;
         border-radius: 50%;
         margin-top: 120px;
         margin-right: 152px;
@@ -110,9 +119,9 @@
         text-align: left;
         margin-top: 64px;
         margin-left: 152px;
-        margin-right: 1151px;
         margin-bottom: 16px;
         font-family: 'Raleway', sans-serif;
+        font-weight: bold;
     }
     
     .parrafosobremi {
@@ -141,6 +150,8 @@
     .navSkillsHobbies {
         display: flex;
         flex-wrap: wrap;
+        position: relative;
+        right: 135px;
     }
     
     .icono {
@@ -158,6 +169,8 @@
         margin-right: 679px;
         margin-bottom: 32px;
         font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
     }
     
     .cajasskill {
@@ -181,6 +194,8 @@
         margin-left: 679px;
         margin-right: 679px;
         font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
     }
     
     .cajashobbies {
@@ -213,8 +228,9 @@
         width: 368px;
         height: 350px;
         position: relative;
-        left: 10%;
+        left: 1%;
         margin-left: 16px;
+        right: 15px;
     }
     
     .cajaBlancaSena {
@@ -238,7 +254,7 @@
         z-index: 1;
         bottom: 190px;
         left: 40%;
-        top: 20px;
+        top: -23px;
         font-size: 32px;
         font-family: 'Raleway', sans-serif;
         font-weight: bold;
@@ -251,7 +267,7 @@
     }
     
     .tiempotitulo {
-        margin: 0;
+        margin-top: 8px;
         font-family: 'Raleway', sans-serif;
     }
     
@@ -261,17 +277,32 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        position: relative;
     }
     
     .tituloProyecto {
         text-align: center;
         font-family: 'Raleway', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .encriptador {
+        margin-bottom: 0;
+    }
+    
+    .ahorcado {
+        margin-top: 0;
     }
     
     .paginaEncript {
-        width: 1300px;
+        width: 1180px;
         height: 718px;
+        margin-bottom: 0;
     }
+    /*formulario*/
     
     .piePagina {
         width: 100%;
@@ -297,6 +328,8 @@
         display: flex;
         flex-direction: column;
         background: #EAF2FD;
+        position: relative;
+        bottom: -61px;
     }
     
     .inputIngreso {
@@ -348,7 +381,7 @@
     
     .tituloformulario {
         margin-left: 20px;
-        margin-bottom: 0;
+        margin-bottom: 40px;
         font-family: 'Raleway', sans-serif;
         font-weight: bold;
     }

@@ -1,0 +1,293 @@
+.contenido__titulo__presentacion {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 7rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    width: 700px;
+}
+
+.contenido__sobre__mi {
+    display: flex;
+}
+
+.contenido__parrafo {
+    padding-left: 7rem;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    width: 700px;
+}
+
+.contenido__imagen {
+    padding-right: 7.6rem;
+    padding-top: 4rem;
+}
+
+.foto {
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+}
+
+.contenido___lista_redes {
+    display: flex;
+}
+
+.contenido__lista__items {
+    list-style: none;
+    align-items: center;
+    padding-left: 3.554rem;
+}
+
+.contenido__lista__links {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #333333;
+}
+
+.contenido__lista__links::after {
+    content: " 🡥";
+}
+
+.contenido__sobremi {
+    padding-left: 7rem;
+}
+
+.firma {
+    position: relative;
+    bottom: 4rem;
+    width: 140px;
+    height: 50px;
+}
+
+.contenido__sobremi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #EAF2FD;
+    height: 383px;
+}
+
+.contenido__parrado__sobremi {
+    width: 751px;
+    height: 133px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contenido__habilidad {
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+    justify-content: center;
+}
+
+.menu__skills,
+.menu__hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6.123rem;
+}
+
+.contenido__habilidad__titulo {
+    text-align: center;
+}
+
+.menu__items__skills {
+    list-style: none;
+    height: 176px;
+    width: 174px;
+    background: #ffff;
+    text-align: left;
+    box-shadow: 2px 2px 2px #ccc;
+    position: relative;
+    margin-right: 16px;
+    border-radius: 5px;
+}
+
+.menu__skills__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 89px;
+    left: 0;
+    margin-left: 8px;
+}
+
+.menu__skills__link:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+}
+
+#html5::before {
+    background-image: url(../img/icons8-html-5.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 65px;
+}
+
+#js::before {
+    background-image: url(../img/icons8-javascript.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 65px;
+}
+
+#php::before {
+    background-image: url(../img/icons8-php-logo.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 65px;
+}
+
+#node::before {
+    background-image: url(../img/icons8-nodejs.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 65px;
+    top: 12px;
+}
+
+#react::before {
+    background-image: url(../img/icons8-react.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 65px;
+}
+
+#css::before {
+    background-image: url(../img/icons8-css3.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 73px;
+}
+
+
+/*habitos*/
+
+#read::before {
+    background-image: url(../img/icons8-read-48.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 73px;
+}
+
+#ukelele::before {
+    background-image: url(../img/icons8-guitar-50.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 68px;
+}
+
+#music::before {
+    background-image: url(../img/icons8-headphones-50.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 68px;
+}
+
+#cook::before {
+    background-image: url(../img/icons8-cook-48.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 68px;
+}
+
+#basket::before {
+    background-image: url(../img/icons8-basketball-48.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 68px;
+}
+
+#skate::before {
+    background-image: url(../img/icons8-skateboarding-48.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 68px;
+}
+
+
+/*academico*/
+
+.academico {
+    height: 583px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EAF2FD;
+}
+
+.titulo__academico {
+    text-align: center;
+    position: relative;
+    left: 2%;
+    top: 95px;
+}
+
+.academico__adsi,
+.academico__alura,
+.academico__unad {
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 368px;
+    margin: 0 10px;
+}
+
+.academico__adsi__contenido,
+.academico__alura__contenido,
+.academico__unad__contenido {
+    height: 286px;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images__academico {
+    width: 200px;
+    height: 200px;
+}
+
+.academico__titulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*profesional*/
+
+.experencia {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.experencia__contenido {
+    height: 600px;
+    width: 100%;
+}

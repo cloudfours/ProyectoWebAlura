@@ -1,0 +1,27 @@
+.cabeza__menu__lista {
+    display: flex;
+}
+
+.menu__item {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.cabeza__menu__link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#correo {
+    font-weight: bold;
+}
+
+.cabeza__titulo::before {
+    content: "✧";
+}

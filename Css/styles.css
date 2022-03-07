@@ -1,0 +1,35 @@
+    .cuerpo {
+        display: flex;
+        flex-direction: column;
+        background: #F5F5F5;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .cabeza {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contacto {
+        height: 788px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #EAF2FD;
+    }
+    
+    .pie {
+        height: 102px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

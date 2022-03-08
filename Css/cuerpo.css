@@ -280,14 +280,67 @@
 /*profesional*/
 
 .experencia {
-    height: 1200px;
+    height: 1990px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
 }
 
-.experencia__contenido {
-    height: 600px;
-    width: 100%;
+.contenido__ahorcado__parteTwo,
+.contenido__ahorcado__parteOne,
+.contenido__encriptar__parteOne,
+.contenido__encriptar__parteTwo {
+    display: flex;
+    margin: 16px 0;
+}
+
+.contenido__boton_enlace {
+    height: 452px;
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen__secreto {
+    height: 452px;
+    width: 752px;
+}
+
+#encriptar {
+    order: 1;
+}
+
+#ahorcado {
+    order: 1;
+}
+
+.boton__git {
+    background: #2A7AE4;
+    width: 105px;
+    height: 51px;
+    border: none;
+    margin-left: 5px;
+}
+
+.titulo__profesional,
+.parrafo__profesional {
+    margin-left: 5px;
+}
+
+.boton__rep {
+    border: 1px solid #2A7AE4;
+    width: 105px;
+    height: 51px;
+    margin-left: 5px;
+}
+
+.boton__enlace__rep {
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.boton__enlace__git {
+    text-decoration: none;
+    color: #ffff;
 }

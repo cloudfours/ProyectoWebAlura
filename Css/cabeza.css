@@ -1,5 +1,7 @@
 .cabeza__menu__lista {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .menu__item {
@@ -20,6 +22,8 @@
 
 #correo {
     font-weight: bold;
+    text-decoration: none;
+    color: #333333;
 }
 
 .cabeza__titulo::before {

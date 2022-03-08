@@ -1,3 +1,9 @@
+.contenido {
+    display: flex;
+    align-items: left;
+    width: 100%;
+}
+
 .contenido__titulo__presentacion {
     font-size: 52px;
     font-style: normal;
@@ -13,6 +19,7 @@
 
 .contenido__sobre__mi {
     display: flex;
+    width: 100%;
 }
 
 .contenido__parrafo {
@@ -75,6 +82,7 @@
     justify-content: center;
     background: #EAF2FD;
     height: 383px;
+    width: 100%;
 }
 
 .contenido__parrado__sobremi {

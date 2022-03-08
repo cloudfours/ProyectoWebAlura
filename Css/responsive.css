@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    #ocultar {
+        display: none;
+    }
+    #titulo__correo {
+        position: relative;
+        left: 11rem;
+    }
+    .foto {
+        width: 146px;
+        height: 146px;
+        border-radius: 100%;
+        position: relative;
+        top: 45px;
+    }
+    .contenido {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .contenido__sobremi {
+        position: relative;
+        left: 9rem;
+        width: 724px;
+    }
+    .contenido__parrado__sobremi,
+    .contenido__titulo__sobremi,
+    .firma {
+        position: relative;
+        right: 7rem;
+    }
+    .contenido__parrado__sobremi,
+    .contenido__titulo__sobremi {
+        width: 704px;
+    }
+    .contenido__habilidad {
+        height: 780px;
+        width: 924px;
+        position: relative;
+    }
+    .menu__skills,
+    .menu__hobbies {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .menu__skills__link {
+        display: block;
+        position: relative;
+        bottom: 89px;
+        left: 0;
+        margin-left: 18px;
+        margin-bottom: 12px;
+    }
+    .menu__items__skills {
+        margin-bottom: 5px;
+        width: 224px;
+    }
+    .contenido__skills__hobbi {
+        position: relative;
+        left: 130px;
+    }
+    .contenido__titulo__presentacion {
+        width: 524px;
+        font-size: 22px;
+    }
+    .contenido__parrafo {
+        font-size: 16px;
+        width: 524px;
+    }
+    .contenido__lista__links::after {
+        content: "🡥";
+    }
+    .academico {
+        position: relative;
+        left: 125px;
+    }
+    .academico__adsi,
+    .academico__alura,
+    .academico__unad {
+        display: flex;
+        flex-direction: column;
+        height: 118px;
+        width: 224px;
+        margin: 0 10px;
+    }
+    .titulo__academico {
+        z-index: 1;
+        position: relative;
+        left: 115px;
+    }
+    .experencia {
+        height: 3200px;
+        position: relative;
+        left: 140px;
+    }
+    .contenido__ahorcado__parteTwo,
+    .contenido__ahorcado__parteOne,
+    .contenido__encriptar__parteOne,
+    .contenido__encriptar__parteTwo {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 0;
+    }
+    .contenido__boton_enlace {
+        height: 250px;
+        order: 1;
+    }
+    .contacto {
+        position: relative;
+        left: 94px;
+        width: 804px;
+    }
+    .telefono {
+        display: none;
+    }
+    .formulario {
+        width: 804px;
+    }
+    .pie {
+        width: 798px;
+        position: relative;
+        left: 70px;
+    }
+    .pie p {
+        position: relative;
+        left: 10px;
+    }
+}

@@ -85,6 +85,12 @@
     width: 100%;
 }
 
+.contenido__lista__links,
+.menu__items__skills:hover {
+    transform: scale(1.2);
+    transition: 2s all;
+}
+
 .contenido__parrado__sobremi {
     width: 751px;
     height: 133px;

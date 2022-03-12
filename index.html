@@ -11,202 +11,141 @@
     <link href="../ProyectoWeb/Css/cuerpo.css" rel="stylesheet" />
     <link href="../ProyectoWeb/Css/pie.css" rel="stylesheet" />
     <link href="../ProyectoWeb/Css/responsive.css" rel="stylesheet" />
+    <link href="../ProyectoWeb/Css/reset.css" rel="stylesheet" />
     <title>Portafolio</title>
 </head>
 
 <body class="cuerpo">
     <header class=" cabeza">
-        <h3 class="cabeza__titulo">Angel santibañez</h3>
-        <nav class="cabeza__menu">
-            <ul class="cabeza__menu__lista">
-                <li class="menu__item" id="ocultar">
-                    <a href="#sobremi" class="cabeza__menu__link">Sobre mi</a>
+
+        <nav class="cabeza__navegador">
+            <h3 class="cabeza__nombre__titulo">Angel santibañez</h3>
+            <ul class="cabeza__lista__menu">
+
+                <li class="cabeza__lista__submenu">
+                    <a class="icono__menu" href="#">Menu</a>
+                    <ul class="submenu">
+                        <li class="cabeza_menu__despegable__iten">
+                            <a href="" #="" class="cabeza__submenu__link">Sobremi</a>
+                        </li>
+                        <li class="cabeza_menu__despegable__iten">
+                            <a href="" #="" class="cabeza__submenu__link">Skills</a>
+                        </li>
+                        <li class="cabeza_menu__despegable__iten">
+                            <a href="" #="" class="cabeza__submenu__link">Hobbies</a>
+                        </li>
+                        <li class="cabeza_menu__despegable__iten">
+                            <a href="" #="" class="cabeza__submenu__link">Formacion</a>
+                        </li>
+                        <li class="cabeza_menu__despegable__iten">
+                            <a href="" #="" class="cabeza__submenu__link">experencia</a>
+                        </li>
+                        <li class="cabeza_menu__despegable__iten">
+                            <a href="" #="" class="cabeza__submenu__link">Contacto</a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="menu__item" id="ocultar">
-                    <a href="#skills" class="cabeza__menu__link">Skills</a>
-                </li>
-                <li class="menu__item" id="ocultar">
-                    <a href="#hobbi" class="cabeza__menu__link">Hobbies</a>
-                </li>
-                <li class="menu__item" id="ocultar">
-                    <a href="#formacion" class="cabeza__menu__link">Formacion</a>
-                </li>
-                <li class="menu__item" id="ocultar">
-                    <a href="#proyecto" class="cabeza__menu__link">Proyectos</a>
-                </li>
-                <h3 class="menu__item" id="titulo__correo">
-                    <a href="#contacto" class="cabeza__menu__link" id="correo">Angel@gmail.com</a>
-                </h3>
 
             </ul>
-
-
-
         </nav>
+
     </header>
     <main class="contenido">
-        <section class="contenido__sobre__mi" id="sobremi">
-            <div class="contenido__nombre ">
-                <h1 class="contenido__titulo__presentacion">Hola, mi nombre es Angel de Santibañez y construyo paginas web</h1>
-                <p class="contenido__parrafo">Soy Estoy estudiando analisis de sistemas de informacion y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-                <nav class="contenido__menu__redes">
-                    <ul class="contenido___lista_redes">
-                        <li class="contenido__lista__items"><a href="https://github.com/cloudfours?tab=repositories" class="contenido__lista__links">Github</a></li>
-                        <li class="contenido__lista__items"><a href="https://www.linkedin.com/in/angel-ti/" class="contenido__lista__links">Linkedin</a></li>
-                        <li class="contenido__lista__items"><a href="https://www.instagram.com/?hl=es-la" class="contenido__lista__links">Instagram</a></li>
-                        <li class="contenido__lista__items"><a href="#" class="contenido__lista__links">Currículum</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="contenido__imagen ">
-                <img src="../ProyectoWeb/img/1640122908844.jpg" class="foto" alt="angel">
-            </div>
-        </section>
-        <section class="contenido__sobremi">
-            <h1 class="contenido__titulo__sobremi">Sobre mi</h1>
-            <p class="contenido__parrado__sobremi">Soy angel santibañez tengo 23 años, soy de colombia actualmante<br>Estudio tecnologia de la informacion me gusta aprender de los demas y tambien <br> enseñar, tambien me gusta <br>trabajar en equipo me preparo para los grandes retos.
-                <br>Me gustan los retos ademas de poder aportar mis conocimientos al crecimiento de cualquier proyecto.</p>
-            <img src="../ProyectoWeb/img/IMG_20220223_125609.png" class="firma">
-        </section>
-        <section class="contenido__skills__hobbi" id="skills">
-            <h1 class="contenido__habilidad__titulo">Skills</h1>
-            <div class="contenido__habilidad">
+        <section class="informacion">
+            <div class="contenido__informacion__sobremi box">
+                <ul class="listado__fotos">
+                    <li class="listado__titulo__principal">
+                        <h3 class="informacion__presentacion">Hola, soy angel santibañez, y hago desarrollo web</h3>
+                        <img src="/ProyectoWeb/img/profesional.jpg" alt="imagen" class="imagen"></li>
+                    <li class="listado__parrafo__principal">
+                        <h3 class="informacion__presentacion__parrafo">Soy formada en Analista de sistemas de informacion y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
+                        <img src="/ProyectoWeb/img/programador.jpg" alt="imagen" class="imagen"></li>
 
-                <nav class="menu__nav">
-                    <ul class="menu__skills">
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="html5">Html5</a></li>
+            </div>
+            <ul class="listado_redes">
+                <li class="redes__item">
+                    <a href="" class="redes__item__links">Git hub</a>
+                </li>
+                <li class="redes__item">
+                    <a href="" class="redes__item__links">Instragram</a>
+                </li>
+                <li class="redes__item">
+                    <a href="" class="redes__item__links">Likendin</a>
+                </li>
+                <li class="redes__item">
+                    <a href="" class="redes__item__links">Curriculum</a>
+                </li>
 
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="js">Javascript</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="php">PHP</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="node">Node.JS</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="react">React</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="css">CSS</a></li>
-                    </ul>
-                </nav>
-                <h1 class="contenido__habilidad__titulo" id="hobbi">Hobbies</h1>
-                <nav>
-                    <ul class="menu__hobbies">
-                        <li class="menu__items__skills">
-                            <a href="" class="menu__skills__link" id="read"></i>Leer</a>
+            </ul>
+            <div class="contenido__sobremi">
+                <h2 class="titulo__contenido__sobremi">Sobre mi</h2>
+                <p class="contenido__informacion__sobremi__parrafo"> Soy de colombia tengo 23 años, estudio Analisis de sistemas de la informacion, me preparo para los grandes retos y para dar lo mejor en los proyectos. y ser vital para mis compañeros como para ser de inspiracion y de aprendizaje.
+                </p>
+                <img src="/ProyectoWeb/img/IMG_20220223_125609.png" alt="firma" class="imagen__firma">
+            </div>
+            <div class="skills">
+                <h2 class="titulo__skills">Skills</h2>
+                <div class="Skills__contenido">
+                    <ul class="skills__lista">
+                        <li class="skills__lista__items">
+                            <a href="#" class="skills__lista__items__links">Html5</a>
                         </li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="ukelele">Ukelele</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="music">Musica</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="cook">cocinar</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="basket">Basketball</a></li>
-                        <li class="menu__items__skills"><a href="" class="menu__skills__link" id="skate">tabla</a></li>
+                        <li class="skills__lista__items">
+                            <a href="#" class="skills__lista__items__links">Javascript</a>
+                        </li>
+                        <li class="skills__lista__items">
+                            <a href="#" class="skills__lista__items__links">PHP</a>
+                        </li>
+                        <li class="skills__lista__items">
+                            <a href="#" class="skills__lista__items__links">Node.Js</a>
+                        </li>
+                        <li class="skills__lista__items">
+                            <a href="#" class="skills__lista__items__links">React</a>
+                        </li>
+                        <li class="skills__lista__items">
+                            <a href="#" class="skills__lista__items__links">Css</a>
+                        </li>
                     </ul>
-                </nav>
-            </div>
-        </section>
-        <section class="Academico" id="formacion">
-            <h1 class="titulo__academico">Formacion academica</h1>
-            <div class="academico">
-
-                <div class="academico__adsi">
-                    <div class="academico__adsi__contenido">
-                        <img src="img/adsi.png" alt="iconosena" class="images__academico">
-                    </div>
-                    <h3 class="academico__titulo">Analista en sistema de informacion</h3>
-                    <p class="academico__parrafo">2021-2023</p>
-                </div>
-                <div class="academico__alura">
-                    <div class="academico__alura__contenido">
-                        <img src="img/alura.png" alt="iconoalura" class="images__academico">
-                    </div>
-                    <h3 class="academico__titulo">Desarrollador Web</h3>
-                    <p class="academico__parrafo">2022</p>
-                </div>
-                <div class=" academico__unad ">
-                    <div class="academico__unad__contenido ">
-                        <img src="img/Logo_unad_color.png " alt="iconounad " class="images__academico">
-                    </div>
-                    <h3 class="academico__titulo">Ingenieria Ambiental</h3>
-                    <p class="academico__parrafo">2023-2027</p>
                 </div>
             </div>
-        </section>
-        <section class="experencia" id="proyecto">
-            <h2 class="titulo_experiencia">Experiencia Profesional</h2>
-            <div class="contenido__encriptar__parteOne">
-                <img src="/ProyectoWeb/img/codigosecreto.png" alt="codigo encriptador" class="imagen__secreto">
-                <div class="contenido__boton_enlace">
-                    <h3 class="titulo__profesional">Encriptador de texto</h3>
-                    <p class="parrafo__profesional">Challenge Alura Codificador</p>
-
-                    <div class="contenido__botones">
-                        <button class="boton__rep"><a href="https://github.com/cloudfours?tab=repositories" class="boton__enlace__rep">Repositorio</a></button>
-                        <button class="boton__git"><a href="https://github.com/cloudfours/Encriptador.io" class="boton__enlace__git">Ver demo</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="contenido__encriptar__parteTwo">
-                <img src="/ProyectoWeb/img/encriptarCodigo.png" alt="encriptar" class="imagen__secreto" id="encriptar">
-                <div class="contenido__boton_enlace">
-                    <h3 class="titulo__profesional">Encriptador de texto</h3>
-                    <p class="parrafo__profesional">Challenge Alura Codificador</p>
-                    <div class="contenido__botones">
-                        <button class="boton__rep"><a href="https://github.com/cloudfours?tab=repositories" class="boton__enlace__rep">Repositorio</a></button>
-                        <button class="boton__git"><a href="https://github.com/cloudfours/Encriptador.io" class="boton__enlace__git">Ver demo</a></button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="contenido__ahorcado__parteOne">
-                <img src="/ProyectoWeb/img/ahorcado1.png" alt="ahorclado" class="imagen__secreto">
-                <div class="contenido__boton_enlace">
-                    <h3 class="titulo__profesional">Juego creado con HTML y JavaScript</h3>
-                    <p class="parrafo__profesional">Challenge Alura Codificador</p>
-                    <div class="contenido__botones">
-                        <button class="boton__rep"><a href="https://github.com/cloudfours?tab=repositories" class="boton__enlace__rep">Repositorio</a></button>
-                        <button class="boton__git"><a href="http://" class="boton__enlace__git">Ver demo</a></button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="contenido__ahorcado__parteTwo">
-                <img src="/ProyectoWeb/img/ahorcado2.png" alt="ahorcado" class="imagen__secreto" id="ahorcado">
-                <div class="contenido__boton_enlace">
-                    <h3 class="titulo__profesional">Juego creado con HTML y JavaScript</h3>
-                    <p class="parrafo__profesional">Challenge Alura Codificador</p>
-                    <div class="contenido__botones">
-                        <button class="boton__rep"><a href="https://github.com/cloudfours?tab=repositories" class="boton__enlace__rep">Repositorio</a></button>
-                        <button class="boton__git"><a href="http://" class="boton__enlace__git">Ver demo</a></button>
-                    </div>
-
+            <div class="hobbi">
+                <h2 class="titulo__hobbi">Hobbi</h2>
+                <div class="hobbi__contenido">
+                    <ul class="hobbi__lista">
+                        <li class="hobbi__lista__items">
+                            <a href="#" class="hobbi__lista__items__links">Ukelele</a>
+                        </li>
+                        <li class="hobbi__lista__items">
+                            <a href="#" class="hobbi__lista__items__links">Basketball</a>
+                        </li>
+                        <li class="hobbi__lista__items">
+                            <a href="#" class="hobbi__lista__items__links">Leer</a>
+                        </li>
+                        <li class="hobbi__lista__items">
+                            <a href="#" class="hobbi__lista__items__links">Musica</a>
+                        </li>
+                        <li class="hobbi__lista__items">
+                            <a href="#" class="hobbi__lista__items__links">Cocinar</a>
+                        </li>
+                        <li class="hobbi__lista__items">
+                            <a href="#" class="hobbi__lista__items__links">Skeatbording</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
         </section>
-        <section class="contacto" id="contacto">
-            <div class="pie__contenido">
-                <img src="img/telefono.jpg" alt="telefono" class="telefono">
+        <section class="Profesion__academica">
 
-                <form class="formulario">
-                    <h1 class="titulo__formulario">Contacto</h1>
-                    <p class="parrafo_formulario">¿Quieres contactarme? Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                    <label for="nombreyapellido" class="label__formulario">Nombre:</label>
-                    <input type="text" placeholder="" id="nombreyapellido" class="input__formulario" required>
-
-                    <label for="correoelectronico" class="label__formulario">Correo:</label>
-                    <input type="email" id="correoelectronico" class="input__formulario" required>
-
-                    <label for="asunto" class="label__formulario">Asunto:</label>
-                    <input type="text" id="asunto" class="input__formulario" requerid ">
-    
-    
-                    <textarea cols="70 " rows="8 " id="mensaje " class="input__mensaje " required></textarea>
-                    <button name="Enviar mensaje " class="boton__formulario ">Enviar mensaje</button>
-                </form>
-    
-            </div>
-            
-    
         </section>
+
+
+
     </main>
     <footer class="pie ">
         <p>Hecho por Angel santibañez&copy; Copyright</p>
     </footer>
-    
+
 
 </body>
 

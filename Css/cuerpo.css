@@ -451,13 +451,13 @@ a .fa-brands fa-html5 {
 }
 
 .button_repo:hover {
-    background: rgb(38, 224, 215);
+    background: rgb(50, 38, 224);
     transform: scale(1.1);
     transition: 2s all;
 }
 
 .button_demo:hover {
-    background: rgb(38, 224, 215);
+    background: rgb(50, 38, 224);
     transform: scale(1.1);
     transition: 2s all;
 }
@@ -481,6 +481,15 @@ a .fa-brands fa-html5 {
     font-size: 18px;
     color: #fff;
     margin: 5px 0;
+}
+
+.rep__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rep__link:hover {
+    color: #3ad368;
 }
 
 

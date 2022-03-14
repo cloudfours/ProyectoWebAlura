@@ -2,7 +2,7 @@
      display: grid;
      grid-template-areas: "cabeza" "contenido" "pie";
      grid-template-columns: auto;
-     grid-template-rows: 50px 300vh auto;
+     grid-template-rows: 50px 740vh 90px;
      font-family: Arial, Helvetica, sans-serif;
  }
  

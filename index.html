@@ -12,6 +12,7 @@
     <link href="../ProyectoWeb/Css/pie.css" rel="stylesheet" />
     <link href="../ProyectoWeb/Css/responsive.css" rel="stylesheet" />
     <link href="../ProyectoWeb/Css/reset.css" rel="stylesheet" />
+    <link href="../ProyectoWeb/Css/responsive.css" rel="stylesheet" />
     <title>Portafolio</title>
 </head>
 
@@ -24,7 +25,7 @@
 
                 <li class="cabeza__lista__submenu">
                     <a class="icono__menu" href="#">Menu</a>
-                    <ul class="submenu">
+                    <ul class="submenu" id="submenus">
                         <li class="cabeza_menu__despegable__iten">
                             <a href="" #="" class="cabeza__submenu__link">Sobremi</a>
                         </li>
@@ -52,16 +53,24 @@
     </header>
     <main class="contenido">
         <section class="informacion">
-            <div class="contenido__informacion__sobremi box">
+            <div class="contenido__informacion__sobremi ">
                 <ul class="listado__fotos">
-                    <li class="listado__titulo__principal">
+                    <li class="listado__titulo__principal" id="imagenone">
                         <h3 class="informacion__presentacion">Hola, soy angel santibañez, y hago desarrollo web</h3>
                         <img src="/ProyectoWeb/img/profesional.jpg" alt="imagen" class="imagen"></li>
-                    <li class="listado__parrafo__principal">
+                    <li class="listado__parrafo__principal" id="imagenTwo">
                         <h3 class="informacion__presentacion__parrafo">Soy formada en Analista de sistemas de informacion y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
                         <img src="/ProyectoWeb/img/programador.jpg" alt="imagen" class="imagen"></li>
-
             </div>
+            <ul class="botones__cambiantes">
+                <li class="botones__item">
+                    <a class="boton__one" href="#imagenone">1</a>
+                </li>
+                <li class="botones__item">
+                    <a class="boton__one" href="#imagenTwo">2</a>
+                </li>
+            </ul>
+
             <ul class="listado_redes">
                 <li class="redes__item">
                     <a href="" class="redes__item__links">Git hub</a>
@@ -133,17 +142,125 @@
                     </ul>
                 </div>
             </div>
+            <div class="Profesion__academica">
+                <h1 class="titulo__profesional__academica">Formacion Academica</h1>
+                <div class="profesional__academica__contenedor">
 
-        </section>
-        <section class="Profesion__academica">
+                    <div class="profesional__adsi__academica">
+                        <div class="profesional__adsi__academica__imagen">
+                            <img src="/ProyectoWeb/img/adsi.png" class="imagen_academia">
+                        </div>
+                        <h2 class="titulo__academico">Analisis de sistemas de informacion</h2>
+                        <p class="fecha__academica">2021-2023</p>
+                    </div>
+                    <div class="profesional__alura__academica">
+                        <div class="profesional__alura__academica__imagen">
+                            <img src="/ProyectoWeb/img/alura.png" class="imagen_academia">
+                        </div>
+                        <h2 class="titulo__academico">Programacion Web</h2>
+                        <p class="fecha__academica">2022</p>
+                    </div>
+                    <div class="profesional__unad__academica">
+                        <div class="profesional__unad__academica__imagen">
+                            <img src="/ProyectoWeb/img/Logo_unad_color.png" class="imagen_academia">
 
+                        </div>
+                        <h2 class="titulo__academico">Ingeniero Ambiental</h2>
+                        <p class="fecha__academica">2023-2028</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="experencia">
+                <h1 class="titulo__experencia">Experencia</h1>
+                <div class="experencia__contenido">
+                    <div class="ahorcado__one">
+                        <div class="imagen__ahorcado__one">
+                            <img src="/ProyectoWeb/img/ahorcado1.png" class="imagen__ahorcado" alt="juegoAhorcado">
+                            <h2 class="boton__titulo">Proyecto juego ahorcado</h2>
+                            <p class="boton__parrafo"> hecho con html y javascript</p>
+                        </div>
+                        <div class="boton__demo__repo__ahorcado">
+
+                            <button class="button_repo">Repositorio</button>
+                            <button class="button_demo">Demo</button>
+
+                        </div>
+                    </div>
+                    <div class="ahorcado__two">
+                        <div class="imagen__ahorcado__one">
+                            <img src="/ProyectoWeb/img/ahorcado2.png" class="imagen__ahorcado" alt="juegoAhorcado">
+                            <h2 class="boton__titulo">Proyecto juego ahorcado</h2>
+                            <p class="boton__parrafo"> hecho con html y javascript</p>
+                        </div>
+
+                        <div class="boton__demo__repo__ahorcado">
+                            <button class="button_repo">Repositorio</button>
+                            <button class="button_demo">Demo</button>
+                        </div>
+                    </div>
+                    <div class="encriptador__one">
+                        <div class="imagen__encriptador__one">
+                            <img src="/ProyectoWeb/img/codigosecreto.png" class="imagen__encriptador" alt="juegoAhorcado">
+                            <h2 class="boton__titulo">Proyecto juego encriptar</h2>
+                            <p class="boton__parrafo"> hecho con html y javascript</p>
+                            <div class="boton__demo__repo__encriptador">
+                                <button class="button_repo">Repositorio</button>
+                                <button class="button_demo">Demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="encriptador__two">
+                        <div class="imagen__encriptador__one">
+                            <img src="/ProyectoWeb/img/encriptarCodigo.png" class="imagen__encriptador" alt="juegoAhorcado">
+                            <h2 class="boton__titulo">Proyecto juego encriptar</h2>
+                            <p class="boton__parrafo"> hecho con html y javascript</p>
+                            <div class="boton__demo__repo__encriptador">
+                                <button class="button_repo">Repositorio</button>
+                                <button class="button_demo">Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formulario">
+                <frame class="container" alt="" src="">
+
+                </frame>
+                <form class="formulario__contacto">
+                    <h2 class="titulo__formulario">Contacto</h2>
+                    <p class="titulo__parrafo__contacto">¿Quieres contactarme? Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                    <label class="label__contacto" id="label__nombre"><span class="span__input" id="nombre__span">Nombre:</span></label>
+                    <input type="text" id="nombreyapellido" class="input-entrada" required>
+
+
+                    <label for="correoelectronico" class="label__contacto"> <span class="span__input">Correo electronico:</span></label>
+                    <input type="email" id="correoelectronico" class="input-entrada" required>
+
+
+                    <label class="label__contacto"><span class="span__input">Telefono:</span></label>
+                    <input type="tel" id="telefono" class="input-entrada" requerid>
+
+
+                    <label class="label__contacto"><span class="span__input">Mensaje:</span></label>
+                    <textarea cols="70" rows="8" id="mensaje" class="input-entrada" required></textarea>
+
+
+
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+
+            </div>
         </section>
+
 
 
 
     </main>
-    <footer class="pie ">
-        <p>Hecho por Angel santibañez&copy; Copyright</p>
+    <footer class="pie">
+        <p class="pie__pagina">Hecho por Angel santibañez&copy; Copyright</p>
     </footer>
 
 

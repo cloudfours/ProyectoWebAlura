@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+    .contenido__informacion__sobremi img {
+        width: 768.2px;
+        height: 241px;
+    }
+    .submenu {
+        position: absolute;
+        display: none;
+        right: -16px;
+    }
+    .hobbi__lista__items,
+    .skills__lista__items {
+        width: 224px;
+        height: 118px;
+        background: #7d19ab;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 21px;
+        display: flex;
+        align-items: flex-end;
+        border: 3px;
+        box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    }
+    .titulo__hobbi,
+    .titulo__skills {
+        text-align: center;
+        padding: 39px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 2px 2px 2px #050201;
+    }
+    .titulo__profesional__academica {
+        text-align: center;
+        font-size: 1.4825rem;
+        padding: 45px 0;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #050201;
+        color: #fff;
+    }
+}

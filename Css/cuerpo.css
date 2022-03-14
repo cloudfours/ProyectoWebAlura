@@ -571,4 +571,11 @@ a .fa-brands fa-html5 {
     border: none;
     position: relative;
     left: 35%;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    transform: scale(1.1);
+    background: #cccc06;
+    transition: 2s all;
 }

@@ -238,4 +238,7 @@
         .video {
             display: none;
         }
+        .formulario__contacto {
+            width: 100%;
+        }
     }

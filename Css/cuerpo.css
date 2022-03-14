@@ -251,51 +251,51 @@ a .fa-brands fa-html5 {
 }
 
 .skills__lista__items:nth-child(1) .skills__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-html-5.svg);
+    background: url(img/icons8-html-5.svg);
 }
 
 .skills__lista__items:nth-child(2) .skills__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-javascript.svg);
+    background: url(img/icons8-javascript.svg);
 }
 
 .skills__lista__items:nth-child(3) .skills__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-php-logo.svg);
+    background: url(img/icons8-php-logo.svg);
 }
 
 .skills__lista__items:nth-child(4) .skills__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-js-48.png) no-repeat;
+    background: url(img/icons8-js-48.png) no-repeat;
 }
 
 .skills__lista__items:nth-child(5) .skills__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-react.svg) no-repeat;
+    background: url(img/icons8-react.svg) no-repeat;
 }
 
 .skills__lista__items:nth-child(6) .skills__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-css3.svg);
+    background: url(img/icons8-css3.svg);
 }
 
 .hobbi__lista__items:nth-child(1) .hobbi__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-guitar-50.png);
+    background: url(img/icons8-guitar-50.png);
 }
 
 .hobbi__lista__items:nth-child(2) .hobbi__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-basketball-48.png);
+    background: url(img/icons8-basketball-48.png);
 }
 
 .hobbi__lista__items:nth-child(3) .hobbi__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-read-48.png);
+    background: url(img/icons8-read-48.png);
 }
 
 .hobbi__lista__items:nth-child(4) .hobbi__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-headphones-50.png) no-repeat;
+    background: url(img/icons8-headphones-50.png) no-repeat;
 }
 
 .hobbi__lista__items:nth-child(5) .hobbi__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-cook-48.png) no-repeat;
+    background: url(img/icons8-cook-48.png) no-repeat;
 }
 
 .hobbi__lista__items:nth-child(6) .hobbi__lista__items__links::before {
-    background: url(/ProyectoWeb/img/icons8-skateboarding-48.png) no-repeat;
+    background: url(img/icons8-skateboarding-48.png) no-repeat;
 }
 
 

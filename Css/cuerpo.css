@@ -510,7 +510,7 @@ a .fa-brands fa-html5 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .titulo__formulario {
@@ -538,6 +538,7 @@ a .fa-brands fa-html5 {
     border-right: none;
     border-bottom: 1px solid #c7c7c7;
     margin: 20px 0;
+    color: #f06e17
 }
 
 .label__contacto {
@@ -545,7 +546,6 @@ a .fa-brands fa-html5 {
     margin: 5px 0;
     bottom: 0;
     left: 0;
-    position: relative;
     font-size: 12px;
 }
 
@@ -558,17 +558,28 @@ a .fa-brands fa-html5 {
     height: 100%;
     border-bottom: 3px solid #2ecece;
     transform: translateX(-100%);
-    transition: all 0.9s ease;
+    transition: all 0.9s;
 }
 
 .span__input {
-    margin: 5px 0;
+    margin: 3px 0;
+    color: #e0b90e;
+    font-size: 9px;
+}
+
+.campo-valido {
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.campo-error {
+    border: 1px solid rgb(212, 29, 29);
 }
 
 .input-entrada:focus {
     transform: translateX(0%);
     border-bottom: 3px solid #2ecece;
-    transition: all 0.9s ease;
+    transition: all 0.9s;
 }
 
 .enviar {
@@ -587,4 +598,9 @@ a .fa-brands fa-html5 {
     transform: scale(1.1);
     background: #cccc06;
     transition: 2s all;
+}
+
+.enviar:disabled {
+    transform: none;
+    background: #424241;
 }

@@ -233,24 +233,28 @@
                 <form class="formulario__contacto">
                     <h2 class="titulo__formulario">Contacto</h2>
                     <p class="titulo__parrafo__contacto">¿Quieres contactarme? Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                    <label class="label__contacto" id="label__nombre"><span class="span__input" id="nombre__span">Nombre:</span></label>
-                    <input type="text" id="nombreyapellido" class="input-entrada" required>
+                    <div class="campo-valido ">
+                        <label class="label__contacto" id="label__nombre"> Nombre:</label>
+                        <input type="text" id="nombre" class="input-entrada " required data-tipo="nombre" maxlength="50">
+                        <span class="span__input"></span>
+                    </div>
+                    <div class="campo-valido">
+                        <label for="correoelectronico" class="label__contacto"> Correo electronico:</label>
+                        <input type="email" id="correoelectronico" class="input-entrada " required data-tipo="correo" maxlength="50">
+                        <span class="span__input"></span>
+                    </div>
+                    <div class="campo-valido">
+                        <label class="label__contacto" id="label__nombre"> asunto:</label>
+                        <input type="text" id="asunto" class="input-entrada " required data-tipo="asunto" maxlength="50">
+                        <span class="span__input"></span>
+                    </div>
+                    <div class="campo-valido">
+                        <label class="label__contacto" id="label__nombre"> mensaje:</label>
+                        <input type="textarea" id="mensaje" class="input-entrada " required data-tipo="texto" maxlength="50">
+                        <span class="span__input"></span>
+                    </div>
 
-
-                    <label for="correoelectronico" class="label__contacto"> <span class="span__input">Correo electronico:</span></label>
-                    <input type="email" id="correoelectronico" class="input-entrada" required>
-
-
-                    <label class="label__contacto"><span class="span__input">Asunto:</span></label>
-                    <input type="text" id="telefono" class="input-entrada" requerid>
-
-
-                    <label class="label__contacto"><span class="span__input">Mensaje:</span></label>
-                    <textarea cols="70" rows="8" id="mensaje" class="input-entrada" required></textarea>
-
-
-
-                    <input type="submit" value="Enviar" class="enviar">
+                    <input type="submit" value="Enviar" id="boton" class="enviar" disabled></input>
                 </form>
 
             </div>
@@ -264,7 +268,7 @@
         <p class="pie__pagina">Hecho por Angel santibañez&copy; Copyright</p>
     </footer>
 
-
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>
